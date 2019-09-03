@@ -1,0 +1,53 @@
+.font-weight-bold{
+	color: teal;
+	
+}
+#small{
+	color:teal;
+}
+#img{
+	border-radius: 50%;
+height: 200px;
+ width: 200px;
+ margin-top: -15px;
+
+}
+#img:hover{
+
+	background-color: orange;
+	width: 500px;
+	filter:drop-shadow(8px 8px 8px green);
+}
+#wel{
+	background-color: teal;
+	border-radius: 20px;
+	color:white;
+	height:480px;
+
+
+}
+#wel:hover{
+	background-color:#e43279;
+	color: white;
+	font-weight: bold;
+	filter:drop-shadow(8px 8px 8px gray);
+}
+footer{
+	background-color: teal;
+	padding: 10px;
+	color: white;
+}
+.modal-header{
+	background-color:red;
+	color:white;
+}
+#welection{
+	margin-top: 60px;
+}
+
+.dropdown:hovr>.dropdown-menu{
+	display: block;
+}
+.dropdown>data-toggle:active{
+	pointer-events: none;
+}

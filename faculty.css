@@ -1,0 +1,46 @@
+#classsec{
+	margin-top: 100px;
+}
+.card-body{
+	background-color: teal;
+	padding: 15px;
+	color: white;
+	border-radius: 10px;
+}
+#img{
+	width: 120px;
+	height: 120px;
+
+	border-radius: 50%;
+}
+footer{
+	background-color: teal;
+	padding: 10px;
+	color: white;
+}
+.modal-header{
+	background-color:red;
+	color:white;
+}
+#img{
+	animation-name: round;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes round{
+0%{
+	border-radius: 25%;
+}
+25%{
+	border-radius: 50%;
+	border:2px solid red;
+}
+50%{
+	border-radius: 75%;
+	border:2px solid green;
+}
+100%{
+	border-radius: 100%;
+	border:2px solid yellow;
+}
+}
